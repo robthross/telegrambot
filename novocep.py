@@ -3,7 +3,7 @@ import requests
 from time import sleep
 from threading import Thread, Lock
 
-token = '1734914622:AAEqhufoSlbPULbfHI07Dh3Uq1ZNFqIFNSU'
+token = ''
 
 global config
 config = {'url': 'https://api.telegram.org/bot{token}/', 'lock': Lock()}
