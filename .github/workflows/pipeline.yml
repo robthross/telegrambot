@@ -3,5 +3,7 @@ on:
   push:
   
 jobs:
-  compara_diretorios:   
+  compara_diretorios:
+    permissions: write-all  
+    secrets: inherit
     uses: robthross/gitactions/.github/workflows/check-template.yml@develop
